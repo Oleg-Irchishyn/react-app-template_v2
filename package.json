@@ -2,25 +2,53 @@
   "name": "react-app-template_v2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Oleg-Irchishyn/react-app-template_v2",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
+    "@types/json-server": "^0.14.4",
     "@types/node": "^16.11.47",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-slick": "^0.23.10",
+    "@types/redux-form": "^8.3.5",
+    "@types/slick-carousel": "^1.6.37",
+    "@types/uuid": "^8.3.4",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "concurrently": "^7.3.0",
+    "gh-pages": "^4.0.0",
+    "json-server": "^0.17.0",
+    "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "redux": "^4.2.0",
+    "redux-form": "^8.3.8",
+    "redux-typescript": "^1.2.1",
+    "sass": "^1.54.2",
+    "slick-carousel": "^1.8.1",
     "typescript": "^4.7.4",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start-dev-server": "concurrently --kill-others \"npm run start\" \"npm run watch\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "watch": "json-server --watch public/db.json --port 3001",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +67,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:3001",
+  "devDependencies": {}
 }

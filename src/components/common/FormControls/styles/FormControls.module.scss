@@ -1,0 +1,96 @@
+@import "../../../../assets/styles/variables.scss";
+
+.formControl {
+  font-family: $font-stack;
+  width: 100%;
+  text-align: left;
+  margin: 0 auto 20px auto;
+
+  input {
+    cursor: pointer;
+
+    &[type="text"] {
+      border: none;
+      border-bottom: 1px solid $color-black;
+      font-size: 14px;
+      font-weight: 400;
+      color: $color-black;
+      padding: 0 0 5px 0;
+      width: 100%;
+      background: transparent;
+      outline: none;
+
+      &:focus {
+        &::placeholder {
+          opacity: 0;
+          transition: 0.2s ease;
+        }
+      }
+
+      &::placeholder {
+        color: inherit;
+        font-size: inherit;
+        opacity: 1;
+        transition: 0.2s ease;
+      }
+    }
+
+    &[type="checkbox"] {
+      display: none;
+    }
+
+    &[type="checkbox"] + label {
+      position: relative;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      padding: 0 0 0 33px;
+      width: 100%;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: calc(0% - 3px);
+        border: 1px solid $color-black;
+        width: 23px;
+        height: 23px;
+      }
+    }
+
+    &[type="checkbox"]:checked + label {
+      &::before {
+        content: "\2713";
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: 400;
+        color: $color-black;
+      }
+    }
+
+    &[type="checkbox"] + label + span {
+      padding-left: 33px;
+    }
+  }
+}
+
+.formControl.error input,
+.formControl.error textarea {
+  border-bottom: 1px $color-wrong solid;
+}
+
+.formControl.error span {
+  display: inline-block;
+  color: $color-wrong;
+  font-size: 14px;
+}
+
+.formSummaryError {
+  border: 1px solid $color-wrong;
+  padding: 5px;
+  color: $color-wrong;
+}
