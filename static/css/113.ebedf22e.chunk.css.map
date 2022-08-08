@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/113.ebedf22e.chunk.css","mappings":"AAAA,iCACE,kBACA","sources":["widgets/PostsWidget/styles/PostsWidget.module.scss"],"sourcesContent":[".posts_widget {\r\n  position: relative;\r\n  width: 100%;\r\n}\r\n"],"names":[],"sourceRoot":""}

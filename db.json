@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-serve1",
+      "author": "typicode1"
+    },
+    {
+      "id": 4,
+      "title": "json-serverrr!!!!",
+      "author": "typicode4"
+    },
+    {
+      "title": "252525",
+      "author": "5252525",
+      "id": 6
+    },
+    {
+      "title": "111",
+      "author": "111",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "some user",
+      "email": "yoyoy1@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "some user 2",
+      "email": "yoyoy2@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "some user 3",
+      "email": "yoyoy3@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "some user 4",
+      "email": "yoyoy4@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "some user 5",
+      "email": "yoyoy5@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "some user 6",
+      "email": "yoyoy6@gmail.com"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
