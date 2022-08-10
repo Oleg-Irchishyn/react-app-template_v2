@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Oleg-Irchishyn/react-app-template_v2/static/css/main.d49a9a43.css",
-    "main.js": "/Oleg-Irchishyn/react-app-template_v2/static/js/main.faf29944.js",
+    "main.js": "/Oleg-Irchishyn/react-app-template_v2/static/js/main.6f5b1c6b.js",
     "static/css/638.53d34930.chunk.css": "/Oleg-Irchishyn/react-app-template_v2/static/css/638.53d34930.chunk.css",
-    "static/js/638.6a489f00.chunk.js": "/Oleg-Irchishyn/react-app-template_v2/static/js/638.6a489f00.chunk.js",
+    "static/js/638.81dc0a2f.chunk.js": "/Oleg-Irchishyn/react-app-template_v2/static/js/638.81dc0a2f.chunk.js",
     "static/css/113.ebedf22e.chunk.css": "/Oleg-Irchishyn/react-app-template_v2/static/css/113.ebedf22e.chunk.css",
     "static/js/113.6f8a380d.chunk.js": "/Oleg-Irchishyn/react-app-template_v2/static/js/113.6f8a380d.chunk.js",
     "static/js/787.5dbdc258.chunk.js": "/Oleg-Irchishyn/react-app-template_v2/static/js/787.5dbdc258.chunk.js",
@@ -14,15 +14,15 @@
     "static/media/slick.woff": "/Oleg-Irchishyn/react-app-template_v2/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Oleg-Irchishyn/react-app-template_v2/index.html",
     "main.d49a9a43.css.map": "/Oleg-Irchishyn/react-app-template_v2/static/css/main.d49a9a43.css.map",
-    "main.faf29944.js.map": "/Oleg-Irchishyn/react-app-template_v2/static/js/main.faf29944.js.map",
+    "main.6f5b1c6b.js.map": "/Oleg-Irchishyn/react-app-template_v2/static/js/main.6f5b1c6b.js.map",
     "638.53d34930.chunk.css.map": "/Oleg-Irchishyn/react-app-template_v2/static/css/638.53d34930.chunk.css.map",
-    "638.6a489f00.chunk.js.map": "/Oleg-Irchishyn/react-app-template_v2/static/js/638.6a489f00.chunk.js.map",
+    "638.81dc0a2f.chunk.js.map": "/Oleg-Irchishyn/react-app-template_v2/static/js/638.81dc0a2f.chunk.js.map",
     "113.ebedf22e.chunk.css.map": "/Oleg-Irchishyn/react-app-template_v2/static/css/113.ebedf22e.chunk.css.map",
     "113.6f8a380d.chunk.js.map": "/Oleg-Irchishyn/react-app-template_v2/static/js/113.6f8a380d.chunk.js.map",
     "787.5dbdc258.chunk.js.map": "/Oleg-Irchishyn/react-app-template_v2/static/js/787.5dbdc258.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d49a9a43.css",
-    "static/js/main.faf29944.js"
+    "static/js/main.6f5b1c6b.js"
   ]
 }
