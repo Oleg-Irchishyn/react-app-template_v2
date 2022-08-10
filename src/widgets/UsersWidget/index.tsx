@@ -9,7 +9,7 @@ import { UserItem } from "./modules";
 import { getUsers } from "../../store/selectors/UsersSliceSelectors";
 
 const UsersWidget: React.FC = React.memo(() => {
-  const users = useAppSelector((state) => getUsers(state));
+  const users = useAppSelector(getUsers);
   const { isLoading, error } = useAppSelector((state) => state.userReducer);
 
   const dispatch = useAppDispatch();

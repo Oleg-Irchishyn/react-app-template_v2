@@ -14,8 +14,8 @@ const SuspendedPostsWidget = withSuspense(PostsWidget);
 const MainWrapper: React.FC = React.memo(() => {
   return (
     <div className={cn(styles.main_wrapper)}>
+      <SliderExample />
       <Routes>
-        <SliderExample />
         <Route path="*" element={<div>404 NOT FOUND</div>} />
         <Route path="/" element={<SuspendedUsersWidget />} />
         <Route path="/posts" element={<SuspendedPostsWidget />} />
