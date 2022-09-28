@@ -6,18 +6,24 @@ interface UsersState {
   users: Array<User> | null;
   isLoading: boolean;
   error: string;
+  count: number;
 }
 
 const initialState: UsersState = {
   users: null,
   isLoading: false,
   error: "",
+  count: 0,
 };
 
 export const userSlice = createSlice({
   name: "users",
   initialState,
-  reducers: {},
+  reducers: {
+    increment(state, action: PayloadAction<number>) {
+      state.count += action.payload;
+    },
+  },
   extraReducers: {
     [fetchUsers.pending.type]: (state, action: PayloadAction<Array<User>>) => {
       state.isLoading = true;

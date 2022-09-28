@@ -16,9 +16,9 @@ const MainWrapper: React.FC = React.memo(() => {
     <div className={cn(styles.main_wrapper)}>
       <SliderExample />
       <Routes>
-        <Route path="*" element={<div>404 NOT FOUND</div>} />
         <Route path="/" element={<SuspendedUsersWidget />} />
         <Route path="/posts" element={<SuspendedPostsWidget />} />
+        <Route path="/*" element={<div>404 NOT FOUND</div>} />
       </Routes>
     </div>
   );
