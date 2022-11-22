@@ -8,7 +8,7 @@ import { Post } from "../../models/interfaces/Post.interface";
 
 const PostsWidget: React.FC = React.memo(() => {
   const postQueryArgs = {
-    start: 1,
+    start: 0,
     end: 100,
   };
 
@@ -27,11 +27,15 @@ const PostsWidget: React.FC = React.memo(() => {
 
   const handleCreatePost = async () => {
     const title = prompt();
-    await createPost({ title, author: title } as Post);
+    await createPost({ title, author: `${title}_author` } as Post);
   };
 
   const handleUpdatePost = (post: Post) => {
-    updatePost(post);
+    updatePost({
+      id: post.id,
+      title: post.title,
+      author: `${post.title}_author`
+    });
   };
 
   const handleRemovePost = (post: Post) => {

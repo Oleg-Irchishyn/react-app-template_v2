@@ -1,24 +1,14 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-serve1",
-      "author": "typicode1"
+      "id": 2,
+      "title": "what's up",
+      "author": "what's up_author"
     },
     {
-      "id": 4,
-      "title": "json-serverrr!!!!",
-      "author": "typicode4"
-    },
-    {
-      "title": "252525",
-      "author": "5252525",
-      "id": 6
-    },
-    {
-      "title": "111",
-      "author": "111",
-      "id": 7
+      "id": 3,
+      "title": "stop it",
+      "author": "stop it_author"
     }
   ],
   "users": [

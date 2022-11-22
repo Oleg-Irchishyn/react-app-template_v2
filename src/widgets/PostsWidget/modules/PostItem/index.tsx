@@ -15,8 +15,8 @@ const PostItem: React.FC<PropsType> = React.memo(({ updatePost, removePost, post
   };
   return (
     <div onClick={handleUpdate}>
-      <span>{title}</span>
-      <span>{author}</span>
+      <span style={{marginRight: '5px'}}>{title}</span>
+      <span style={{marginRight: '5px'}}>{author}</span>
       <button onClick={handleRemove}>Delete Post</button>
     </div>
   );
